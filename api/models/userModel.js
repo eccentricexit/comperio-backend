@@ -6,16 +6,16 @@ var Schema = mongoose.Schema;
 var UserSchema = new Schema({
   name: {
     type: String,
-    required: 'Name required.'
+    required: 'name required.'
   },
   username: {
     type: String,
-    required: 'Username required'
+    required: 'username required'
   },
   password: {
     type: String,
-    required: 'Password required.'
-  },
+    required: 'password required.'
+  }
 });
 
 module.exports = mongoose.model('Users', UserSchema);
