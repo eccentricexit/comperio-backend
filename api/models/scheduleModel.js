@@ -28,7 +28,7 @@ var ScheduleSchema = new Schema({
   weekDaysAvailable:[String],
   loc: {
     type: [Number],  // [<longitude>, <latitude>]
-    index: '2d'      // create the geospatial index
+    index: '2dsphere'      // create the geospatial index
   },
   startTime: Number,
   endTime:Number
