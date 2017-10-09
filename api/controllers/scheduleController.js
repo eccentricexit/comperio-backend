@@ -16,7 +16,7 @@ exports.create_a_schedule = function(req, res) {
 };
 
 exports.find_schedules = function(req, res) {
-  if (req.query.length === 0) {
+  if (!req.query.longitude || !req.query.latitude) {
     Schedule.find(function(err, docs) {
       if (err) {
         res.send(err);
