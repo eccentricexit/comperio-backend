@@ -5,33 +5,39 @@ var GeoJSON = require('mongoose-geojson-schema');
 var Schema = mongoose.Schema;
 
 var ScheduleSchema = new Schema({
-  name: {
+  teacherName: {
     type: String,
     required: 'name is required'
   },
-  subject: {
-    type: String,
-    required: 'subject is required'
-  },
-  imageUrl: {
+  teacherPicUrl: {
     type: String,
     required: 'imageUrl is required'
   },
-  rating: {
+  teacherRating: {
     type: Number,
     required: 'rating is required'
   },
-  phoneNumber: {
-    type: String,
+  teacherPhone: {
+    type: Number,
     required: 'phoneNumber is required'
   },
-  weekDaysAvailable:[String],
+  subjectName: {
+    type: String,
+    required: 'subject is required'
+  },
+  weekDaysAvailable:{
+    type: String,
+    required: 'weekdays are required. Format: comma separated numbers 0-6'
+  },
   loc: {
     type: [Number],  // [<longitude>, <latitude>]
     index: '2dsphere'      // create the geospatial index
   },
-  startTime: Number,
-  endTime:Number
+  startHour: Number,
+  startMinute: Number,
+  endHour: Number,
+  endMinute: Number,
+  hourPrice: Number
 });
 
 module.exports = mongoose.model('Schedules', ScheduleSchema);
