@@ -37,7 +37,8 @@ var ScheduleSchema = new Schema({
   startMinute: Number,
   endHour: Number,
   endMinute: Number,
-  hourPrice: Number
+  hourPrice: Number,
+  teacherStory:String
 });
 
 module.exports = mongoose.model('Schedules', ScheduleSchema);
