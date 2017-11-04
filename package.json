@@ -28,6 +28,7 @@
   },
   "dependencies": {
     "express": "^4.16.1",
-    "mongoose": "^4.12.0"
+    "mongoose": "^4.12.0",
+    "mongoose-geojson-schema": "^2.1.2"
   }
 }
