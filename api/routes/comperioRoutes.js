@@ -13,5 +13,4 @@ module.exports = function(app) {
     .get(schedules.read_a_schedule)
     .put(schedules.update_a_schedule)
     .delete(schedules.delete_a_schedule);
-
 };

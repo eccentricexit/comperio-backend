@@ -30,15 +30,33 @@ var ScheduleSchema = new Schema({
     required: 'weekdays are required. Format: comma separated numbers 0-6'
   },
   loc: {
-    type: [Number],  // [<longitude>, <latitude>]
-    index: '2dsphere'      // create the geospatial index
+    type: [Number],   // [<longitude>, <latitude>]
+    index: '2dsphere' // create the geospatial index    
   },
-  startHour: Number,
-  startMinute: Number,
-  endHour: Number,
-  endMinute: Number,
-  hourPrice: Number,
-  teacherStory:String
+  teachStory: {
+    type: String,
+    required: 'teachStory is required'
+  },
+  startMinute: {
+    type: Number,
+    required: 'startMinute is required'
+  },
+  endMinute: {
+    type: Number,
+    required: 'endMinute is required'
+  },
+  startHour: {
+    type: Number,
+    required: 'startHour is required'
+  },
+  endHour: {
+    type: Number,
+    required: 'endHour is required'
+  },
+  hourPrice: {
+    type: Number,
+    required: 'hourPrice is required'
+  },
 });
 
 module.exports = mongoose.model('Schedules', ScheduleSchema);
