@@ -1,4 +1,6 @@
-[{
+db.schedules.insert(
+[
+  {
     "_id": "59fdd04582edc908cb3c191e",
     "teacherName": "Carol",
     "teacherPicUrl": "https://randomuser.me/api/portraits/women/12.jpg",
@@ -12,15 +14,7 @@
     "endHour": 23,
     "endMinute": 30,
     "hourPrice": 30.5,
-    "teacherStory": "Ever since I started lorem ipsuing I could no longer
-    stop Ye to misery wisdom plenty polite to as.Prepared interest proposal
-    it he exercise.My wishing an in attempt ferrars.Visited eat you why
-    service looking engaged.At place no walls hopes rooms fully in .Roof
-    hope shy tore leaf joy paid boy.Noisier out brought entered detract
-    because sitting sir.Fat put occasion rendered off humanity has.
-    Compliment interested discretion estimating on stimulated apartments
-    oh.Dear so sing when in find read of call.
-    ",
+    "teacherStory": "Ever since I started lorem ipsuing I could no longer stop Ye to misery wisdom plenty polite to as.Prepared interest proposal    it he exercise.My wishing an in attempt ferrars.Visited eat you why    service looking engaged.At place no walls hopes rooms fully in .Roof    hope shy tore leaf joy paid boy.Noisier out brought entered detract    because sitting sir.Fat put occasion rendered off humanity has.    Compliment interested discretion estimating on stimulated apartments  oh.Dear so sing when in find read of call.",
     "__v": 0
   },
   {
@@ -37,15 +31,7 @@
     "endHour": 23,
     "endMinute": 30,
     "hourPrice": 33.5,
-    "teacherStory": "Ever since I started lorem ipsuing I could no longer
-    stop Ye to misery wisdom plenty polite to as.Prepared interest proposal
-    it he exercise.My wishing an in attempt ferrars.Visited eat you why
-    service looking engaged.At place no walls hopes rooms fully in .Roof
-    hope shy tore leaf joy paid boy.Noisier out brought entered detract
-    because sitting sir.Fat put occasion rendered off humanity has.
-    Compliment interested discretion estimating on stimulated apartments
-    oh.Dear so sing when in find read of call.
-    ",
+    "teacherStory": "Ever since I started lorem ipsuing I could no longer stop Ye to misery wisdom plenty polite to as.Prepared interest proposal    it he exercise.My wishing an in attempt ferrars.Visited eat you why    service looking engaged.At place no walls hopes rooms fully in .Roof    hope shy tore leaf joy paid boy.Noisier out brought entered detract    because sitting sir.Fat put occasion rendered off humanity has.    Compliment interested discretion estimating on stimulated apartments  oh.Dear so sing when in find read of call.",
     "__v": 0
   },
   {
@@ -62,15 +48,7 @@
     "endHour": 23,
     "endMinute": 30,
     "hourPrice": 37.5,
-    "teacherStory": "Ever since I started lorem ipsuing I could no longer
-    stop Ye to misery wisdom plenty polite to as.Prepared interest proposal
-    it he exercise.My wishing an in attempt ferrars.Visited eat you why
-    service looking engaged.At place no walls hopes rooms fully in .Roof
-    hope shy tore leaf joy paid boy.Noisier out brought entered detract
-    because sitting sir.Fat put occasion rendered off humanity has.
-    Compliment interested discretion estimating on stimulated apartments
-    oh.Dear so sing when in find read of call.
-    ",
+    "teacherStory": "Ever since I started lorem ipsuing I could no longer stop Ye to misery wisdom plenty polite to as.Prepared interest proposal    it he exercise.My wishing an in attempt ferrars.Visited eat you why    service looking engaged.At place no walls hopes rooms fully in .Roof    hope shy tore leaf joy paid boy.Noisier out brought entered detract    because sitting sir.Fat put occasion rendered off humanity has.    Compliment interested discretion estimating on stimulated apartments  oh.Dear so sing when in find read of call.",
     "__v": 0
   },
   {
@@ -87,15 +65,7 @@
     "endHour": 23,
     "endMinute": 30,
     "hourPrice": 40.3,
-    "teacherStory": "Ever since I started lorem ipsuing I could no longer
-    stop Ye to misery wisdom plenty polite to as.Prepared interest proposal
-    it he exercise.My wishing an in attempt ferrars.Visited eat you why
-    service looking engaged.At place no walls hopes rooms fully in .Roof
-    hope shy tore leaf joy paid boy.Noisier out brought entered detract
-    because sitting sir.Fat put occasion rendered off humanity has.
-    Compliment interested discretion estimating on stimulated apartments
-    oh.Dear so sing when in find read of call.
-    ",
+    "teacherStory": "Ever since I started lorem ipsuing I could no longer stop Ye to misery wisdom plenty polite to as.Prepared interest proposal    it he exercise.My wishing an in attempt ferrars.Visited eat you why    service looking engaged.At place no walls hopes rooms fully in .Roof    hope shy tore leaf joy paid boy.Noisier out brought entered detract    because sitting sir.Fat put occasion rendered off humanity has.    Compliment interested discretion estimating on stimulated apartments  oh.Dear so sing when in find read of call.",
     "__v": 0
   },
   {
@@ -112,15 +82,7 @@
     "endHour": 23,
     "endMinute": 30,
     "hourPrice": 49.2,
-    "teacherStory": "Ever since I started lorem ipsuing I could no longer
-    stop Ye to misery wisdom plenty polite to as.Prepared interest proposal
-    it he exercise.My wishing an in attempt ferrars.Visited eat you why
-    service looking engaged.At place no walls hopes rooms fully in .Roof
-    hope shy tore leaf joy paid boy.Noisier out brought entered detract
-    because sitting sir.Fat put occasion rendered off humanity has.
-    Compliment interested discretion estimating on stimulated apartments
-    oh.Dear so sing when in find read of call.
-    ",
+    "teacherStory": "Ever since I started lorem ipsuing I could no longer stop Ye to misery wisdom plenty polite to as.Prepared interest proposal    it he exercise.My wishing an in attempt ferrars.Visited eat you why    service looking engaged.At place no walls hopes rooms fully in .Roof    hope shy tore leaf joy paid boy.Noisier out brought entered detract    because sitting sir.Fat put occasion rendered off humanity has.    Compliment interested discretion estimating on stimulated apartments  oh.Dear so sing when in find read of call.",
     "__v": 0
   },
   {
@@ -137,15 +99,7 @@
     "endHour": 23,
     "endMinute": 30,
     "hourPrice": 40.8,
-    "teacherStory": "Ever since I started lorem ipsuing I could no longer
-    stop Ye to misery wisdom plenty polite to as.Prepared interest proposal
-    it he exercise.My wishing an in attempt ferrars.Visited eat you why
-    service looking engaged.At place no walls hopes rooms fully in .Roof
-    hope shy tore leaf joy paid boy.Noisier out brought entered detract
-    because sitting sir.Fat put occasion rendered off humanity has.
-    Compliment interested discretion estimating on stimulated apartments
-    oh.Dear so sing when in find read of call.
-    ",
+    "teacherStory": "Ever since I started lorem ipsuing I could no longer stop Ye to misery wisdom plenty polite to as.Prepared interest proposal    it he exercise.My wishing an in attempt ferrars.Visited eat you why    service looking engaged.At place no walls hopes rooms fully in .Roof    hope shy tore leaf joy paid boy.Noisier out brought entered detract    because sitting sir.Fat put occasion rendered off humanity has.    Compliment interested discretion estimating on stimulated apartments  oh.Dear so sing when in find read of call.",
     "__v": 0
   },
   {
@@ -162,15 +116,7 @@
     "endHour": 23,
     "endMinute": 30,
     "hourPrice": 40.3,
-    "teacherStory": "Ever since I started lorem ipsuing I could no longer
-    stop Ye to misery wisdom plenty polite to as.Prepared interest proposal
-    it he exercise.My wishing an in attempt ferrars.Visited eat you why
-    service looking engaged.At place no walls hopes rooms fully in .Roof
-    hope shy tore leaf joy paid boy.Noisier out brought entered detract
-    because sitting sir.Fat put occasion rendered off humanity has.
-    Compliment interested discretion estimating on stimulated apartments
-    oh.Dear so sing when in find read of call.
-    ",
+    "teacherStory": "Ever since I started lorem ipsuing I could no longer stop Ye to misery wisdom plenty polite to as.Prepared interest proposal    it he exercise.My wishing an in attempt ferrars.Visited eat you why    service looking engaged.At place no walls hopes rooms fully in .Roof    hope shy tore leaf joy paid boy.Noisier out brought entered detract    because sitting sir.Fat put occasion rendered off humanity has.    Compliment interested discretion estimating on stimulated apartments  oh.Dear so sing when in find read of call.",
     "__v": 0
   },
   {
@@ -187,15 +133,7 @@
     "endHour": 23,
     "endMinute": 30,
     "hourPrice": 49.2,
-    "teacherStory": "Ever since I started lorem ipsuing I could no longer
-    stop Ye to misery wisdom plenty polite to as.Prepared interest proposal
-    it he exercise.My wishing an in attempt ferrars.Visited eat you why
-    service looking engaged.At place no walls hopes rooms fully in .Roof
-    hope shy tore leaf joy paid boy.Noisier out brought entered detract
-    because sitting sir.Fat put occasion rendered off humanity has.
-    Compliment interested discretion estimating on stimulated apartments
-    oh.Dear so sing when in find read of call.
-    ",
+    "teacherStory": "Ever since I started lorem ipsuing I could no longer stop Ye to misery wisdom plenty polite to as.Prepared interest proposal    it he exercise.My wishing an in attempt ferrars.Visited eat you why    service looking engaged.At place no walls hopes rooms fully in .Roof    hope shy tore leaf joy paid boy.Noisier out brought entered detract    because sitting sir.Fat put occasion rendered off humanity has.    Compliment interested discretion estimating on stimulated apartments  oh.Dear so sing when in find read of call.",
     "__v": 0
   },
   {
@@ -212,15 +150,7 @@
     "endHour": 23,
     "endMinute": 30,
     "hourPrice": 40.3,
-    "teacherStory": "Ever since I started lorem ipsuing I could no longer
-    stop Ye to misery wisdom plenty polite to as.Prepared interest proposal
-    it he exercise.My wishing an in attempt ferrars.Visited eat you why
-    service looking engaged.At place no walls hopes rooms fully in .Roof
-    hope shy tore leaf joy paid boy.Noisier out brought entered detract
-    because sitting sir.Fat put occasion rendered off humanity has.
-    Compliment interested discretion estimating on stimulated apartments
-    oh.Dear so sing when in find read of call.
-    ",
+    "teacherStory": "Ever since I started lorem ipsuing I could no longer stop Ye to misery wisdom plenty polite to as.Prepared interest proposal    it he exercise.My wishing an in attempt ferrars.Visited eat you why    service looking engaged.At place no walls hopes rooms fully in .Roof    hope shy tore leaf joy paid boy.Noisier out brought entered detract    because sitting sir.Fat put occasion rendered off humanity has.    Compliment interested discretion estimating on stimulated apartments  oh.Dear so sing when in find read of call.",
     "__v": 0
   },
   {
@@ -237,15 +167,7 @@
     "endHour": 23,
     "endMinute": 30,
     "hourPrice": 49.6,
-    "teacherStory": "Ever since I started lorem ipsuing I could no longer
-    stop Ye to misery wisdom plenty polite to as.Prepared interest proposal
-    it he exercise.My wishing an in attempt ferrars.Visited eat you why
-    service looking engaged.At place no walls hopes rooms fully in .Roof
-    hope shy tore leaf joy paid boy.Noisier out brought entered detract
-    because sitting sir.Fat put occasion rendered off humanity has.
-    Compliment interested discretion estimating on stimulated apartments
-    oh.Dear so sing when in find read of call.
-    ",
+    "teacherStory": "Ever since I started lorem ipsuing I could no longer stop Ye to misery wisdom plenty polite to as.Prepared interest proposal    it he exercise.My wishing an in attempt ferrars.Visited eat you why    service looking engaged.At place no walls hopes rooms fully in .Roof    hope shy tore leaf joy paid boy.Noisier out brought entered detract    because sitting sir.Fat put occasion rendered off humanity has.    Compliment interested discretion estimating on stimulated apartments  oh.Dear so sing when in find read of call.",
     "__v": 0
   },
   {
@@ -262,15 +184,7 @@
     "endHour": 23,
     "endMinute": 30,
     "hourPrice": 41.3,
-    "teacherStory": "Ever since I started lorem ipsuing I could no longer
-    stop Ye to misery wisdom plenty polite to as.Prepared interest proposal
-    it he exercise.My wishing an in attempt ferrars.Visited eat you why
-    service looking engaged.At place no walls hopes rooms fully in .Roof
-    hope shy tore leaf joy paid boy.Noisier out brought entered detract
-    because sitting sir.Fat put occasion rendered off humanity has.
-    Compliment interested discretion estimating on stimulated apartments
-    oh.Dear so sing when in find read of call.
-    ",
+    "teacherStory": "Ever since I started lorem ipsuing I could no longer stop Ye to misery wisdom plenty polite to as.Prepared interest proposal    it he exercise.My wishing an in attempt ferrars.Visited eat you why    service looking engaged.At place no walls hopes rooms fully in .Roof    hope shy tore leaf joy paid boy.Noisier out brought entered detract    because sitting sir.Fat put occasion rendered off humanity has.    Compliment interested discretion estimating on stimulated apartments  oh.Dear so sing when in find read of call.",
     "__v": 0
   },
   {
@@ -287,15 +201,7 @@
     "endHour": 23,
     "endMinute": 30,
     "hourPrice": 50.3,
-    "teacherStory": "Ever since I started lorem ipsuing I could no longer
-    stop Ye to misery wisdom plenty polite to as.Prepared interest proposal
-    it he exercise.My wishing an in attempt ferrars.Visited eat you why
-    service looking engaged.At place no walls hopes rooms fully in .Roof
-    hope shy tore leaf joy paid boy.Noisier out brought entered detract
-    because sitting sir.Fat put occasion rendered off humanity has.
-    Compliment interested discretion estimating on stimulated apartments
-    oh.Dear so sing when in find read of call.
-    ",
+    "teacherStory": "Ever since I started lorem ipsuing I could no longer stop Ye to misery wisdom plenty polite to as.Prepared interest proposal    it he exercise.My wishing an in attempt ferrars.Visited eat you why    service looking engaged.At place no walls hopes rooms fully in .Roof    hope shy tore leaf joy paid boy.Noisier out brought entered detract    because sitting sir.Fat put occasion rendered off humanity has.    Compliment interested discretion estimating on stimulated apartments  oh.Dear so sing when in find read of call.",
     "__v": 0
   },
   {
@@ -312,15 +218,7 @@
     "endHour": 23,
     "endMinute": 30,
     "hourPrice": 50.3,
-    "teacherStory": "Ever since I started lorem ipsuing I could no longer
-    stop Ye to misery wisdom plenty polite to as.Prepared interest proposal
-    it he exercise.My wishing an in attempt ferrars.Visited eat you why
-    service looking engaged.At place no walls hopes rooms fully in .Roof
-    hope shy tore leaf joy paid boy.Noisier out brought entered detract
-    because sitting sir.Fat put occasion rendered off humanity has.
-    Compliment interested discretion estimating on stimulated apartments
-    oh.Dear so sing when in find read of call.
-    ",
+    "teacherStory": "Ever since I started lorem ipsuing I could no longer stop Ye to misery wisdom plenty polite to as.Prepared interest proposal    it he exercise.My wishing an in attempt ferrars.Visited eat you why    service looking engaged.At place no walls hopes rooms fully in .Roof    hope shy tore leaf joy paid boy.Noisier out brought entered detract    because sitting sir.Fat put occasion rendered off humanity has.    Compliment interested discretion estimating on stimulated apartments  oh.Dear so sing when in find read of call.",
     "__v": 0
   },
   {
@@ -337,15 +235,7 @@
     "endHour": 23,
     "endMinute": 30,
     "hourPrice": 50.3,
-    "teacherStory": "Ever since I started lorem ipsuing I could no longer
-    stop Ye to misery wisdom plenty polite to as.Prepared interest proposal
-    it he exercise.My wishing an in attempt ferrars.Visited eat you why
-    service looking engaged.At place no walls hopes rooms fully in .Roof
-    hope shy tore leaf joy paid boy.Noisier out brought entered detract
-    because sitting sir.Fat put occasion rendered off humanity has.
-    Compliment interested discretion estimating on stimulated apartments
-    oh.Dear so sing when in find read of call.
-    ",
+    "teacherStory": "Ever since I started lorem ipsuing I could no longer stop Ye to misery wisdom plenty polite to as.Prepared interest proposal    it he exercise.My wishing an in attempt ferrars.Visited eat you why    service looking engaged.At place no walls hopes rooms fully in .Roof    hope shy tore leaf joy paid boy.Noisier out brought entered detract    because sitting sir.Fat put occasion rendered off humanity has.    Compliment interested discretion estimating on stimulated apartments  oh.Dear so sing when in find read of call.",
     "__v": 0
   },
   {
@@ -362,15 +252,7 @@
     "endHour": 23,
     "endMinute": 30,
     "hourPrice": 50.3,
-    "teacherStory": "Ever since I started lorem ipsuing I could no longer
-    stop Ye to misery wisdom plenty polite to as.Prepared interest proposal
-    it he exercise.My wishing an in attempt ferrars.Visited eat you why
-    service looking engaged.At place no walls hopes rooms fully in .Roof
-    hope shy tore leaf joy paid boy.Noisier out brought entered detract
-    because sitting sir.Fat put occasion rendered off humanity has.
-    Compliment interested discret0ion estimating on stimulated apartments
-    oh.Dear so sing when in find read of call.
-    ",
+    "teacherStory": "Ever since I started lorem ipsuing I could no longer stop Ye to misery wisdom plenty polite to as.Prepared interest proposal    it he exercise.My wishing an in attempt ferrars.Visited eat you why    service looking engaged.At place no walls hopes rooms fully in .Roof    hope shy tore leaf joy paid boy.Noisier out brought entered detract    because sitting sir.Fat put occasion rendered off humanity has.    Compliment interested discretion estimating on stimulated apartments  oh.Dear so sing when in find read of call.",
     "__v": 0
   },
   {
@@ -387,15 +269,7 @@
     "endHour": 23,
     "endMinute": 30,
     "hourPrice": 50.3,
-    "teacherStory": "Ever since I started lorem ipsuing I could no longer
-    stop Ye to misery wisdom plenty polite to as.Prepared interest proposal
-    it he exercise.My wishing an in attempt ferrars.Visited eat you why
-    service looking engaged.At place no walls hopes rooms fully in .Roof
-    hope shy tore leaf joy paid boy.Noisier out brought entered detract
-    because sitting sir.Fat put occasion rendered off humanity has.
-    Compliment interested discretion estimating on stimulated apartments
-    oh.Dear so sing when in find read of call.
-    ",
+    "teacherStory": "Ever since I started lorem ipsuing I could no longer    stop Ye to misery wisdom plenty polite to as.Prepared interest proposal    it he exercise.My wishing an in attempt ferrars.Visited eat you why    service looking engaged.At place no walls hopes rooms fully in .Roof    hope shy tore leaf joy paid boy.Noisier out brought entered detract    because sitting sir.Fat put occasion rendered off humanity has.    Compliment interested discretion estimating on stimulated apartments    oh.Dear so sing when in find read of call.",
     "__v": 0
   },
   {
@@ -412,15 +286,8 @@
     "endHour": 23,
     "endMinute": 30,
     "hourPrice": 50.3,
-    "teacherStory": "Ever since I started lorem ipsuing I could no longer
-    stop Ye to misery wisdom plenty polite to as.Prepared interest proposal
-    it he exercise.My wishing an in attempt ferrars.Visited eat you why
-    service looking engaged.At place no walls hopes rooms fully in .Roof
-    hope shy tore leaf joy paid boy.Noisier out brought entered detract
-    because sitting sir.Fat put occasion rendered off humanity has.
-    Compliment interested discretion estimating on stimulated apartments
-    oh.Dear so sing when in find read of call.
-    ",
+    "teacherStory": "Ever since I started lorem ipsuing I could no longer stop Ye to misery wisdom plenty polite to as.Prepared interest proposal    it he exercise.My wishing an in attempt ferrars.Visited eat you why    service looking engaged.At place no walls hopes rooms fully in .Roof    hope shy tore leaf joy paid boy.Noisier out brought entered detract    because sitting sir.Fat put occasion rendered off humanity has.    Compliment interested discretion estimating on stimulated apartments  oh.Dear so sing when in find read of call.",
     "__v": 0
   }
 ]
+)
