@@ -18,15 +18,11 @@ exports.create_a_schedule = function(req, res) {
   req.body.loc = req.body.loc.split(',').map(Number);
   var new_schedule = new Schedule(req.body);
   new_schedule.save(function(err, schedule) {
-    if (err) {
-      res.send(err);
-    }
+    if (err) {res.send(err); return;}
 
     // Send a message to devices subscribed to the provided topic.
     admin.messaging().sendToTopic(topic, payload)
       .then(function(response) {
-        // See the MessagingTopicResponse reference documentation for the
-        // contents of response.
         console.log("Successfully sent message:", response);
       })
       .catch(function(error) {
@@ -44,6 +40,14 @@ exports.find_schedules = function(req, res) {
         res.send(err);
         return;
       }
+
+      //add fake distance
+      docs = docs.map(function(doc){
+        doc.set('distance',2000,{strict: false});
+        return doc;
+      });
+
+
       res.json(docs);
     });
     return;
