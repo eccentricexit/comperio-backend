@@ -1,5 +1,5 @@
 'use strict';
-module.exports = function(app) {
+module.exports = function(app,fcmMessager) {
   var schedules = require('../controllers/scheduleController');
 
   // schedule Routes

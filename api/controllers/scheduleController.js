@@ -1,7 +1,18 @@
 'use strict';
 var mongoose = require('mongoose');
 var Schedule = mongoose.model('Schedules');
+var admin = require("firebase-admin");
+var serviceAccount = require("../comperio-494c9-firebase-adminsdk-3p9fd-c4c60d234d.json");
 
+var topic = "updateDb";
+
+// See the "Defining the message payload" section below for details
+// on how to define a message payload.
+var payload = {
+  data: {
+    updateDb: 'true'
+  }
+};
 
 exports.create_a_schedule = function(req, res) {
   req.body.loc = req.body.loc.split(',').map(Number);
@@ -10,6 +21,17 @@ exports.create_a_schedule = function(req, res) {
     if (err) {
       res.send(err);
     }
+
+    // Send a message to devices subscribed to the provided topic.
+    admin.messaging().sendToTopic(topic, payload)
+      .then(function(response) {
+        // See the MessagingTopicResponse reference documentation for the
+        // contents of response.
+        console.log("Successfully sent message:", response);
+      })
+      .catch(function(error) {
+        console.log("Error sending message:", error);
+      });
 
     res.json(schedule);
   });
@@ -94,3 +116,8 @@ exports.delete_a_schedule = function(req, res) {
     });
   });
 };
+
+admin.initializeApp({
+  credential: admin.credential.cert(serviceAccount),
+  databaseURL: "https://comperio-494c9.firebaseio.com/"
+});
