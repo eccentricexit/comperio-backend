@@ -33,9 +33,9 @@ var ScheduleSchema = new Schema({
     type: [Number],   // [<longitude>, <latitude>]
     index: '2dsphere' // create the geospatial index    
   },
-  teachStory: {
+  teacherStory: {
     type: String,
-    required: 'teachStory is required'
+    required: 'teacherStory is required'
   },
   startMinute: {
     type: Number,
