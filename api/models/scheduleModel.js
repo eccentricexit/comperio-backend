@@ -25,33 +25,13 @@ var ScheduleSchema = new Schema({
     type: String,
     required: 'subject is required'
   },
-  weekDaysAvailable:{
-    type: String,
-    required: 'weekdays are required. Format: comma separated numbers 0-6'
-  },
   loc: {
     type: [Number],   // [<longitude>, <latitude>]
-    index: '2dsphere' // create the geospatial index    
+    index: '2dsphere' // create the geospatial index
   },
   teacherStory: {
     type: String,
     required: 'teacherStory is required'
-  },
-  startMinute: {
-    type: Number,
-    required: 'startMinute is required'
-  },
-  endMinute: {
-    type: Number,
-    required: 'endMinute is required'
-  },
-  startHour: {
-    type: Number,
-    required: 'startHour is required'
-  },
-  endHour: {
-    type: Number,
-    required: 'endHour is required'
   },
   hourPrice: {
     type: Number,
