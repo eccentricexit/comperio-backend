@@ -34,45 +34,39 @@ exports.create_a_schedule = function(req, res) {
 };
 
 exports.find_schedules = function(req, res) {
-  if (!req.query.longitude || !req.query.latitude) {
-    Schedule.find(function(err, docs) {
-      if (err) {
-        res.send(err);
-        return;
-      }
-
-      //add fake distance
-      docs = docs.map(function(doc){
-        doc.set('distance',2000,{strict: false});
-        return doc;
-      });
-
-
-      res.json(docs);
-    });
-    return;
-  }
-
-  var mDistance = req.query.distance || 8; //in kilometers
-
   var coords = [];
-  coords[0] = Number(req.query.longitude);
-  coords[1] = Number(req.query.latitude);
+  coords[0] = Number(req.query.lon);
+  coords[1] = Number(req.query.lat);
+
+  var subject = req.query.subject;
+  var maxDist = req.query.maxDist;
+
 
   var qry = Schedule.find();
-  qry.where('loc').near({
-    center: {
-      type: 'Point',
-      coordinates: coords
-    },
-    maxDistance: mDistance * 1000
-  });
-  //qry.where('name').equals('Alice');
+  if(subject){    
+    qry.where('subjectName').equals(subject);
+  }
+
+
+  // NOTE: Not using real location data so the review team
+  //       can see data no matter where they are.
+  //
+  //  qry.where('loc').near({
+  //   center: {
+  //     type: 'Point',
+  //     coordinates: coords
+  //   },
+  //   maxDistance: mDistance * 1000
+  // });
+  //
+
+  //fake clause
+  if(maxDist) {
+    qry.where('distance').lte(parseInt(maxDist));
+  }
 
   qry.exec(function(err, docs) {
-    if (err) {
-      return res.send(err);
-    }
+    if (err) {return res.send(err); }
     res.json(docs);
   });
 

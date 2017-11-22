@@ -9,6 +9,7 @@ db.schedules.insert(
     "weekDaysAvailable": "1,3,5",
     "loc": [-45.9206777, -23.227223],
     "hourPrice": 30.5,
+    "distance": 2300,
     "teacherStory": "Ever since I started lorem ipsuing I could no longer stop Ye to misery wisdom plenty polite to.",
     "__v": 0
   },
@@ -20,6 +21,7 @@ db.schedules.insert(
     "subjectName": "French",
     "loc": [-45.9206777, -23.227223],
     "hourPrice": 50.3,
+    "distance": 3300,
     "teacherStory": "Ever since I started lorem ipsuing I could no longer    stop Ye to misery wisdom plenty polite to as.Prepared interest proposal    it he exercise.My wishing an in attempt ferrars.Visited eat you why    service looking engaged.At place no walls hopes rooms fully in .Roof    hope shy tore leaf joy paid boy.Noisier out brought entered detract    because sitting sir.Fat put occasion rendered off humanity has.    Compliment interested discretion estimating on stimulated apartments    oh.Dear so sing when in find read of call.",
     "__v": 0
   },
@@ -31,6 +33,7 @@ db.schedules.insert(
     "subjectName": "German",
     "loc": [-45.9206777, -23.227223],
     "hourPrice": 33.5,
+    "distance": 4000,
     "teacherStory": "Ever since I started lorem ipsuing I could no longer stop Ye to misery wisdom plenty polite to.",
     "__v": 0
   },
@@ -42,6 +45,7 @@ db.schedules.insert(
     "subjectName": "English",
     "loc": [-45.9206777, -23.227223],
     "hourPrice": 37.5,
+    "distance": 5300,
     "teacherStory": "Ever since I started lorem ipsuing I could no longer stop Ye to misery wisdom plenty polite to.",
     "__v": 0
   },
@@ -53,6 +57,7 @@ db.schedules.insert(
     "subjectName": "Japanese",
     "loc": [-45.9206777, -23.227223],
     "hourPrice": 50.3,
+    "distance": 6300,
     "teacherStory": "Ever since I started lorem ipsuing I could no longer    stop Ye to misery wisdom plenty polite to as.Prepared interest proposal    it he exercise.My wishing an in attempt ferrars.Visited eat you why    service looking engaged.At place no walls hopes rooms fully in .Roof    hope shy tore leaf joy paid boy.Noisier out brought entered detract    because sitting sir.Fat put occasion rendered off humanity has.    Compliment interested discretion estimating on stimulated apartments    oh.Dear so sing when in find read of call.",
     "__v": 0
   },
@@ -64,6 +69,7 @@ db.schedules.insert(
     "subjectName": "English",
     "loc": [-45.9206777, -23.227223],
     "hourPrice": 40.3,
+    "distance": 7300,
     "teacherStory": "Ever since I started lorem ipsuing I could no longer stop Ye to misery wisdom plenty polite to.",
     "__v": 0
   },
@@ -75,6 +81,7 @@ db.schedules.insert(
     "subjectName": "English",
     "loc": [-45.9206777, -23.227223],
     "hourPrice": 50.3,
+    "distance": 4200,
     "teacherStory": "Ever since I started lorem ipsuing I could no longer    stop Ye to misery wisdom plenty polite to as.Prepared interest proposal    it he exercise.My wishing an in attempt ferrars.Visited eat you why    service looking engaged.At place no walls hopes rooms fully in .Roof    hope shy tore leaf joy paid boy.Noisier out brought entered detract    because sitting sir.Fat put occasion rendered off humanity has.    Compliment interested discretion estimating on stimulated apartments    oh.Dear so sing when in find read of call.",
     "__v": 0
   },
@@ -86,6 +93,7 @@ db.schedules.insert(
     "subjectName": "Spanish",
     "loc": [-45.9206777, -23.227223],
     "hourPrice": 49.2,
+    "distance": 1500,
     "teacherStory": "Ever since I started lorem ipsuing I could no longer stop Ye to misery wisdom plenty polite to.",
     "__v": 0
   },
@@ -97,6 +105,7 @@ db.schedules.insert(
     "subjectName": "Spanish",
     "loc": [-45.9206777, -23.227223],
     "hourPrice": 40.8,
+    "distance": 1600,
     "teacherStory": "Ever since I started lorem ipsuing I could no longer stop Ye to misery wisdom plenty polite to.",
     "__v": 0
   },
@@ -108,6 +117,7 @@ db.schedules.insert(
     "subjectName": "English",
     "loc": [-45.9206777, -23.227223],
     "hourPrice": 40.3,
+    "distance": 3600,
     "teacherStory": "Ever since I started lorem ipsuing I could no longer stop Ye to misery wisdom plenty polite to.",
     "__v": 0
   },
@@ -119,6 +129,7 @@ db.schedules.insert(
     "subjectName": "Portuguese",
     "loc": [-45.9206777, -23.227223],
     "hourPrice": 49.2,
+    "distance": 6700,
     "teacherStory": "Ever since I started lorem ipsuing I could no longer stop Ye to misery wisdom plenty polite to.",
     "__v": 0
   },
@@ -130,6 +141,7 @@ db.schedules.insert(
     "subjectName": "Portuguese",
     "loc": [-45.9206777, -23.227223],
     "hourPrice": 40.3,
+    "distance": 2200,
     "teacherStory": "Ever since I started lorem ipsuing I could no longer stop Ye to misery wisdom plenty polite to.",
     "__v": 0
   },
@@ -141,6 +153,7 @@ db.schedules.insert(
     "subjectName": "Portuguese",
     "loc": [-45.9206777, -23.227223],
     "hourPrice": 50.3,
+    "distance": 6300,
     "teacherStory": "Ever since I started lorem ipsuing I could no longer    stop Ye to misery wisdom plenty polite to as.Prepared interest proposal    it he exercise.My wishing an in attempt ferrars.Visited eat you why    service looking engaged.At place no walls hopes rooms fully in .Roof    hope shy tore leaf joy paid boy.Noisier out brought entered detract    because sitting sir.Fat put occasion rendered off humanity has.    Compliment interested discretion estimating on stimulated apartments    oh.Dear so sing when in find read of call.",
     "__v": 0
   },
@@ -152,6 +165,7 @@ db.schedules.insert(
     "subjectName": "French",
     "loc": [-45.9206777, -23.227223],
     "hourPrice": 49.6,
+    "distance": 2500,
     "teacherStory": "Ever since I started lorem ipsuing I could no longer stop Ye to misery wisdom plenty polite to.",
     "__v": 0
   },
@@ -163,6 +177,7 @@ db.schedules.insert(
     "subjectName": "Spanish",
     "loc": [-45.9206777, -23.227223],
     "hourPrice": 41.3,
+    "distance": 2600,
     "teacherStory": "Ever since I started lorem ipsuing I could no longer stop Ye to misery wisdom plenty polite to.",
     "__v": 0
   },
@@ -174,6 +189,7 @@ db.schedules.insert(
     "subjectName": "English",
     "loc": [-45.9206777, -23.227223],
     "hourPrice": 50.3,
+    "distance": 2700,
     "teacherStory": "Ever since I started lorem ipsuing I could no longer stop Ye to misery wisdom plenty polite to.",
     "__v": 0
   },
@@ -185,6 +201,7 @@ db.schedules.insert(
     "subjectName": "German",
     "loc": [-45.9206777, -23.227223],
     "hourPrice": 50.3,
+    "distance": 2800,
     "teacherStory": "Ever since I started lorem ipsuing I could no longer stop Ye to misery wisdom plenty polite to.",
     "__v": 0
   },
@@ -196,6 +213,7 @@ db.schedules.insert(
     "subjectName": "French",
     "loc": [-45.9206777, -23.227223],
     "hourPrice": 50.3,
+    "distance": 2200,
     "teacherStory": "Ever since I started lorem ipsuing I could no longer    stop Ye to misery wisdom plenty polite to as.Prepared interest proposal    it he exercise.My wishing an in attempt ferrars.Visited eat you why    service looking engaged.At place no walls hopes rooms fully in .Roof    hope shy tore leaf joy paid boy.Noisier out brought entered detract    because sitting sir.Fat put occasion rendered off humanity has.    Compliment interested discretion estimating on stimulated apartments    oh.Dear so sing when in find read of call.",
     "__v": 0
   },
@@ -207,6 +225,7 @@ db.schedules.insert(
     "subjectName": "German",
     "loc": [-45.9206777, -23.227223],
     "hourPrice": 50.3,
+    "distance": 4300,
     "teacherStory": "Ever since I started lorem ipsuing I could no longer stop Ye to misery wisdom plenty polite to.",
     "__v": 0
   },
@@ -218,6 +237,7 @@ db.schedules.insert(
     "subjectName": "German",
     "loc": [-45.9206777, -23.227223],
     "hourPrice": 50.3,
+    "distance": 7300,
     "teacherStory": "Ever since I started lorem ipsuing I could no longer stop Ye to misery wisdom plenty polite to.",
     "__v": 0
   },
@@ -229,6 +249,7 @@ db.schedules.insert(
     "subjectName": "French",
     "loc": [-45.9206777, -23.227223],
     "hourPrice": 50.3,
+    "distance": 6300,
     "teacherStory": "Ever since I started lorem ipsuing I could no longer    stop Ye to misery wisdom plenty polite to as.Prepared interest proposal    it he exercise.My wishing an in attempt ferrars.Visited eat you why    service looking engaged.At place no walls hopes rooms fully in .Roof    hope shy tore leaf joy paid boy.Noisier out brought entered detract    because sitting sir.Fat put occasion rendered off humanity has.    Compliment interested discretion estimating on stimulated apartments    oh.Dear so sing when in find read of call.",
     "__v": 0
   },
@@ -240,6 +261,7 @@ db.schedules.insert(
     "subjectName": "German",
     "loc": [-45.9206777, -23.227223],
     "hourPrice": 50.3,
+    "distance": 10300,
     "teacherStory": "Ever since I started lorem ipsuing I could no longer    stop Ye to misery wisdom plenty polite to as.Prepared interest proposal    it he exercise.My wishing an in attempt ferrars.Visited eat you why    service looking engaged.At place no walls hopes rooms fully in .Roof    hope shy tore leaf joy paid boy.Noisier out brought entered detract    because sitting sir.Fat put occasion rendered off humanity has.    Compliment interested discretion estimating on stimulated apartments    oh.Dear so sing when in find read of call.",
     "__v": 0
   },
@@ -251,6 +273,7 @@ db.schedules.insert(
     "subjectName": "Japanese",
     "loc": [-45.9206777, -23.227223],
     "hourPrice": 50.3,
+    "distance": 3300,
     "teacherStory": "Ever since I started lorem ipsuing I could no longer stop Ye to misery wisdom plenty polite to.",
     "__v": 0
   },
@@ -262,6 +285,7 @@ db.schedules.insert(
     "subjectName": "Spanish",
     "loc": [-45.9206777, -23.227223],
     "hourPrice": 50.3,
+    "distance": 2300,
     "teacherStory": "Ever since I started lorem ipsuing I could no longer stop Ye to misery wisdom plenty polite to.",
     "__v": 0
   }
