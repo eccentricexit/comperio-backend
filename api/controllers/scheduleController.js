@@ -39,7 +39,7 @@ exports.find_schedules = function(req, res) {
   coords[1] = Number(req.query.lat);
 
   var subject = req.query.subject;
-  var maxDist = req.query.maxDist;
+  var maxDistance = req.query.maxDistance;
 
 
   var qry = Schedule.find();
@@ -61,8 +61,8 @@ exports.find_schedules = function(req, res) {
   //
 
   //fake clause
-  if(maxDist) {
-    qry.where('distance').lte(parseInt(maxDist));
+  if(maxDistance) {
+    qry.where('distance').lte(parseInt(maxDistance));
   }
 
   qry.exec(function(err, docs) {
