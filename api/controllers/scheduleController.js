@@ -15,10 +15,15 @@ var payload = {
 };
 
 exports.create_a_schedule = function(req, res) {
-  req.body.loc = req.body.loc.split(',').map(Number);
+  req.body.loc = req.body.loc.map(Number);
+  if(!req.body.teacherRating){
+     // add a fake rating
+     req.body.teacherRating = 4.3;
+  }
+
   var new_schedule = new Schedule(req.body);
   new_schedule.save(function(err, schedule) {
-    if (err) {res.send(err); return;}
+    if (err) {console.log(err); res.send(err); return;}
 
     // Send a message to devices subscribed to the provided topic.
     admin.messaging().sendToTopic(topic, payload)
@@ -42,6 +47,7 @@ exports.find_schedules = function(req, res) {
   var maxDistance = req.query.maxDistance;
 
 
+
   var qry = Schedule.find();
   if(subject){    
     qry.where('subjectName').equals(subject);
@@ -60,10 +66,10 @@ exports.find_schedules = function(req, res) {
   // });
   //
 
-  //fake clause
-  if(maxDistance) {
-    qry.where('distance').lte(parseInt(maxDistance));
-  }
+  //ignoring distance
+  //if(maxDistance) {
+  //  qry.where('distance').lte(parseInt(maxDistance));
+  //}
 
   qry.exec(function(err, docs) {
     if (err) {return res.send(err); }
