@@ -16,10 +16,8 @@ var payload = {
 
 exports.create_a_schedule = function(req, res) {
   req.body.loc = req.body.loc.map(Number);
-  if(!req.body.teacherRating){
-     // add a fake rating
-     req.body.teacherRating = 4.3;
-  }
+  if(req.body.teacherRating){
+  req.body.teacherRating = 4.3; //fake rating}
 
   var new_schedule = new Schedule(req.body);
   new_schedule.save(function(err, schedule) {
@@ -39,17 +37,19 @@ exports.create_a_schedule = function(req, res) {
 };
 
 exports.find_schedules = function(req, res) {
-  var subject = req.query.subject;
-
-  var maxDistance = req.query.maxDistance;
   var coords = [];
   coords[0] = Number(req.query.lon);
   coords[1] = Number(req.query.lat);
 
+  var subject = req.query.subject;
+  var maxDistance = req.query.maxDistance;
+
+
   var qry = Schedule.find();
-  if(subject){
+  if(subject){    
     qry.where('subjectName').equals(subject);
   }
+
 
   // NOTE: Not using real location data so the review team
   //       can see data no matter where they are.
@@ -63,27 +63,13 @@ exports.find_schedules = function(req, res) {
   // });
   //
 
+  //fake clause
+  if(maxDistance) {
+    qry.where('distance').lte(parseInt(maxDistance));
+  }
+
   qry.exec(function(err, docs) {
     if (err) {return res.send(err); }
-
-   docs.forEach(function(item){
-	var distanceToUser = calculateDistance(coords,item.loc);
-	item.set('distance',distanceToUser, { strict: false });
-       console.log(item);
-   });
-
-console.log(docs);
-
-
-
-//    for (var i = 0; i<docs.length;i++) {
-//      var distanceToUser = calculateDistance(coords,docs[i].loc);
-//      console.log("fakedistance: "+distanceToUser);
-//
-//      docs[i]['distance'] = distanceToUser;
-//      console.log(docs[i]);
-//    }
-
     res.json(docs);
   });
 
@@ -92,15 +78,9 @@ console.log(docs);
 
 exports.read_a_schedule = function(req, res) {
   Schedule.findById(req.params.id, function(err, schedule) {
-    if (err) {res.send(err);}
-
-    var maxDistance = req.query.maxDistance;
-    var coords = [];
-
-    coords[0] = Number(req.query.lon);
-    coords[1] = Number(req.query.lat);
-
-    schedule.distance = calculateDistance(coords,schedule.loc);
+    if (err) {
+      res.send(err);
+    }
 
     res.json(schedule);
   });
@@ -137,12 +117,6 @@ exports.delete_a_schedule = function(req, res) {
     });
   });
 };
-
-function calculateDistance(userLoc,scheduleLoc){
-  // faking distance so the review team can get content wherever they are.
-  var fakeDistances = Array(3600,5000,2000,30000,2523,5325,5115,3523,5533,6123);
-  return fakeDistances[Math.floor(Math.random()*fakeDistances.length)];;
-}
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
