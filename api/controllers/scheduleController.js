@@ -66,10 +66,10 @@ exports.find_schedules = function(req, res) {
   qry.exec(function(err, docs) {
     if (err) {return res.send(err); }
 
-    docs.forEach(function(doc) {
-      console.log(doc);
-      doc.distance = calculateDistance(coords,doc.loc);
-    });
+    docs.forEach(function(item){
+      var distanceToUser = calculateDistance(coords,item.loc);
+      item.set('distance',distanceToUser, { strict: false });
+   });
 
     res.json(docs);
   });
@@ -83,10 +83,11 @@ exports.read_a_schedule = function(req, res) {
 
     var maxDistance = req.query.maxDistance;
     var coords = [];
+
     coords[0] = Number(req.query.lon);
     coords[1] = Number(req.query.lat);
 
-    schedule.distance = calculateDistance(coords,doc.loc);
+    schedule.distance = calculateDistance(coords,schedule.loc);
 
     res.json(schedule);
   });
@@ -126,7 +127,7 @@ exports.delete_a_schedule = function(req, res) {
 
 function calculateDistance(userLoc,scheduleLoc){
   // faking distance so the review team can get content wherever they are.
-  var fakeDistances = Array(3600,5000,2000,30000,2523,5325,5115,3523,5533,6123);
+  var fakeDistances = Array(3600,5833,474,30000,2523,5325,5115,4747,5533,6123);
   return fakeDistances[Math.floor(Math.random()*fakeDistances.length)];;
 }
 
