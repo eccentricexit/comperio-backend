@@ -2,7 +2,7 @@
 var mongoose = require('mongoose');
 var Schedule = mongoose.model('Schedules');
 var admin = require("firebase-admin");
-var serviceAccount = require("../comperio-494c9-firebase-adminsdk-3p9fd-c4c60d234d.json");
+var serviceAccount = require("../fcm.json");
 
 var topic = "updateDb";
 
