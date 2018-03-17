@@ -34,9 +34,6 @@ See the [oficial documentation](https://firebase.google.com/docs/admin/setup) on
 1. On the root `npm start server.js`.
 2. `GET`and `POST` to [http://localhost:3000/v1/schedules](http://localhost:3000/v1/schedules). More information on routes [here](https://github.com/mtsalenc/comperio-backend/blob/master/api/routes/comperioRoutes.js).
 
-## Contribute
-
-PRs accepted.
 
 ## License
 
