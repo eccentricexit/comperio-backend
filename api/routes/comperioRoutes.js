@@ -1,16 +1,16 @@
-'use strict';
-module.exports = function(app,fcmMessager) {
-  var schedules = require('../controllers/scheduleController');
+'use strict'
+module.exports = function (app, fcmMessager) {
+  let schedules = require('../controllers/scheduleController')
 
   // schedule Routes
   app.route('/v1/schedules')
-    .post(schedules.create_a_schedule);
+    .post(schedules.create_a_schedule)
 
   app.route('/v1/schedules')
-    .get(schedules.find_schedules);
+    .get(schedules.find_schedules)
 
   app.route('/v1/schedules/:id')
     .get(schedules.read_a_schedule)
     .put(schedules.update_a_schedule)
-    .delete(schedules.delete_a_schedule);
-};
+    .delete(schedules.delete_a_schedule)
+}

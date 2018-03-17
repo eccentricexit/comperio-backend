@@ -1,10 +1,9 @@
-'use strict';
-var mongoose = require('mongoose');
-var GeoJSON = require('mongoose-geojson-schema');
+'use strict'
+let mongoose = require('mongoose')
 
-var Schema = mongoose.Schema;
+let Schema = mongoose.Schema
 
-var ScheduleSchema = new Schema({
+let ScheduleSchema = new Schema({
   teacherName: {
     type: String,
     required: 'name is required'
@@ -36,7 +35,7 @@ var ScheduleSchema = new Schema({
   hourPrice: {
     type: Number,
     required: 'hourPrice is required'
-  },
-});
+  }
+})
 
-module.exports = mongoose.model('Schedules', ScheduleSchema);
+module.exports = mongoose.model('Schedules', ScheduleSchema)
