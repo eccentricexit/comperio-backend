@@ -3,6 +3,7 @@
 ![](https://raw.githubusercontent.com/mtsalenc/comperio-backend/master/images/banner.png)
 
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 > Persist data and broadcast update requests.
 
